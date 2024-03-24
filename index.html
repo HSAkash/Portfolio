@@ -1,0 +1,1457 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vCard - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css" integrity="sha384-BY+fdrpOd3gfeRvTSMT+VUZmA728cfF9Z2G42xpaRkUGu2i3DyzpTURDo5A6CaLK" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Hemel Sharker Akash" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Hemel Sharker Akash">Hemel Sharker Akash</h1>
+
+          <p class="title">Machine Learning Engineer</p>
+          <p class="title">Django Expart</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:hemelakash472@gmail.com" class="contact-link">hemelakash472@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+8801792805468" class="contact-link">+8801792805468</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1998-09-03">Sept 03, 1998</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Tangail, Dhaka, Bangladesh</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a  class="social-link"
+              href="https://www.linkedin.com/in/hemel-akash" target="blank"><img src="assets/images/linkedin.png" alt="https://www.kaggle.com/hsakash"  height="20" width="20" />
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/HSAkash" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+          
+          <li class="social-item">
+            <a  class="social-link"
+              href="https://www.t.me/HemelAkash" target="blank"><img src="assets/images/telegram.png" alt="https://www.kaggle.com/hsakash"  height="20" width="20" />
+            </a>
+          </li>
+
+          <li class="social-item">
+            <!-- <a href="https://twitter.com/HSAkash2" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a> -->
+            <a  class="social-link"
+              href="https://twitter.com/HSAkash2" target="blank"><img src="assets/images/twitter.png" alt="https://www.kaggle.com/hsakash"  height="20" width="20" />
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a 
+              href="https://www.kaggle.com/hsakash" target="blank"><img src="assets/images/kaggle.png" alt="https://www.kaggle.com/hsakash"  height="20" width="20" />
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a 
+              href="https://scholar.google.com/citations?user=vx-jQ0YAAAAJ" target="blank"><img src="assets/images/scholar.png" alt="https://www.kaggle.com/hsakash"  height="20" width="20" />
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <!-- <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li> -->
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            With over a year of hands-on experience in machine learning and more than two years dedicated to Python backend development using Django, I bring a unique blend of expertise to the table. My journey as a machine learning engineer has been exciting and fulfilling, as I've delved into various algorithms, techniques, and tools to tackle real-world challenges. Alongside, my tenure in Django development has equipped me with the skills to architect robust and scalable web applications. I find immense joy in both roles, leveraging my knowledge and creativity to craft innovative solutions. As I continue to hone my craft, my passion lies in exploring the depths of artificial intelligence and applying its capabilities to real-world scenarios.
+          </p>
+
+          <p>
+            My aspiration is to delve deeper into the realms of artificial intelligence, constantly expanding my understanding and skill set in this dynamic field. I am driven by the prospect of leveraging AI technologies to automate processes and enhance efficiency across various domains. My goal is to not only learn about AI but also to implement it effectively, particularly in web applications, where its integration can revolutionize user experiences and streamline operations. Through my portfolio website, I aim to showcase my journey, projects, and insights, illustrating my dedication to advancing the frontiers of AI and contributing meaningfully to the automation landscape.
+          </p>
+
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/ai.png" alt="mobile app icon" width="50">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Artificial Intelligence</h4>
+
+                <p class="service-item-text">
+                  I am passionate about exploring the depths of artificial intelligence and applying its capabilities to real-world scenarios.
+                </p>
+              </div>
+
+            </li>
+            
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/computer_vision.png" alt="mobile app icon" width="50">
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Computer vision</h4>
+
+                <p class="service-item-text">
+                  I have experience in developing computer vision models for gesture recognition, object detection, and facial recognition.
+                </p>
+              </div>
+
+            </li>
+            
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/llm.jpeg" alt="mobile app icon" width="50">
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Large Language Model</h4>
+
+                <p class="service-item-text">
+                  I have experience in developing large language models for text generation, summarization, and translation.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  I develop robust and scalable web applications using Django and Python.
+                </p>
+              </div>
+
+            </li>
+
+            <!-- <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Mobile apps</h4>
+
+                <p class="service-item-text">
+                  Professional development of applications for iOS and Android.
+                </p>
+              </div>
+
+            </li> -->
+
+            <!-- <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Photography</h4>
+
+                <p class="service-item-text">
+                  I make high-quality photos of any category at a professional level.
+                </p>
+              </div>
+
+            </li> -->
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <!-- <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Testimonials</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Dr. Abdur Rahim" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Dr. Abdur Rahim</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Hemel was hired to create a corporate identity. We were very pleased with the work done. He has a
+                    lot of experience
+                    and is very concerned about the needs of client.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section> -->
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Dr. Abdur Rahim" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Dr. Abdur Rahim</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Hemel was hired to create a corporate identity. We were very pleased with the work done. He has a
+                  lot of experience and is very concerned about the needs of client.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+<!-- 
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Clients</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-1-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-2-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-3-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-4-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-5-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-6-color.png" alt="client logo">
+              </a>
+            </li>
+
+          </ul>
+
+        </section> -->
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Bachelor of Science in Computer Science And Engineering</h4>
+
+              <span>2018 — 2023 (Academy year:2021 & Exam held: 2023)</span>
+
+              <p class="timeline-text">
+                Pabna University Of Science And Technology, Pabna, Bangladesh
+              </p>
+              <p class="timeline-text">
+                CGPA - 3.67 out of 4.00 (Last four semester average 3.88)
+              </p>
+              <p class="timeline-text">
+                Position - 1st Class 3rd
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Higher Secondary Certificate Examination</h4>
+
+              <span>Passing Year: 2016</span>
+
+              <p class="timeline-text">
+                Sristy College of Tangail, Tangail, Bangladesh
+              </p>
+              <p class="timeline-text">
+                Board - Dhaka, Group: Science
+              </p>
+              <p class="timeline-text">
+                GPA - 5.00 out of 5.00
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Secondary School Certificate Examination</h4>
+
+              <span>Passing Year: 2014</span>
+
+              <p class="timeline-text">
+                Dighulia Shahid Mizanur Rahman High School, Tangail, Bangladesh
+              </p>
+              <p class="timeline-text">
+                Board - Dhaka, Group: Science
+              </p>
+              <p class="timeline-text">
+                GPA - 5.00 out of 5.00
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Machine Learning Engineer - (Virtual Keyboard)</h4>
+
+              <span>November 2023 - Present</span>
+
+              <span class="timeline-text">
+                Pabna University Of Science And Technology
+              </span>
+              <p class="timeline-text">
+                <span>Keyboard :</span> Utilizing MediaPipe, detect finger positions to determine the corresponding key pressed—a concise and elegant solution for recognizing keyboard inputs..
+              </p>
+              <p class="timeline-text">
+                <span>Gestures/Action recognition:</span> We have modified and trained the ”Cronnet” model, proficient in discerning hand gestures such as raising, lowering, leftward and rightward movements, and thumbs-up signals. These actions seamlessly translate into scrolling up, scrolling down, swiping left, swiping right, and additional functionalities—effectively enhancing user interaction through mouse or keyboard shortcuts.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Machine Learning Engineer - (Smart Classroom Project)</h4>
+
+              <span>May 2023 - November 2023</span>
+
+              <span class="timeline-text">
+                Pabna University Of Science And Technology
+              </span>
+              <p class="timeline-text">
+                Developed a real-time student recognition and monitoring system for universities using SvelteKit (Frontend) and Golang (Backend). Implemented computer vision algorithms(YOLOv8, Bytetracker, Dlib , Tensorflow, Keras) for facial recognition and student attendance tracking. Integrated with biometric devices for secure authentication and access control.
+              </p>
+
+            </li>
+
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">PUBLICATIONS</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+              <a href="https://link.springer.com/chapter/10.1007/978-981-99-5652-4_52">
+                <p class="timeline-text"><strong>Hemel Sharker Akash</strong> , Md Abdur Rahim, Abu Saleh Musa Miah, Yuichi Okuyama, Yoichi Tomioka and Jungpil Shin, “Generalized Technique for Potato Leaves Disease Classification using Convolutional Neural Network,” in 8th International Conference on ICT for Sustainable Development.</p>
+              </a>
+            </li>
+            <li class="timeline-item">
+              <a href="https://link.springer.com/article/10.1007/s40995-023-01555-y">
+                <p class="timeline-text">Md. Nur Alam, <strong>Hemel Sharker Akash</strong> , Uzzal Saha, Md. Shahid Hasan, Mst. Wahida Parvin, Cemil Tunç, “Bifurcation Analysis and Solitary Wave Analysis of the Nonlinear Fractional Soliton Neuron Model,” in Iranian Journal of Science.</p>
+              </a>
+            </li>
+            <li class="timeline-item">
+              <a href="https://link.springer.com/article/10.1007/s11082-023-05863-w">
+                <p class="timeline-text">Md Nur Alam, Onur Alp İlhan, <strong>Hemel Sharker Akash</strong> , Imran Talib, “Bifurcation analysis and new exact complex solutions for the nonlinear Schrödinger equations with cubic nonlinearity,” in Optical and Quantum Electronics.</p>
+              </a>
+            </li>
+
+
+          </ol>
+
+        </section>
+
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">CERTIFICATIONS</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+              <a href="https://coursera.org/share/ad12151f584fa21f7b52271b3850b02c/">
+                <span>Generative AI with Large Language Models</span>
+              </a>
+              <p class="timeline-text"> DeepLearning.AI</p>
+            </li>
+            <li class="timeline-item">
+              <a href="https://coursera.org/share/e59ddf65a769da7ee3b372d470136181">
+                <span>Structuring Machine Learning Projects</span>
+              </a>
+              <p class="timeline-text"> DeepLearning.AI</p>
+            </li>
+            <li class="timeline-item">
+              <a href="https://coursera.org/share/3945c3969cdd0aed0debb0e678a994c0">
+                <span>Data Structures and Algorithm Specialization</span>
+              </a>
+              <p class="timeline-text"> University of California San Diego</p>
+            </li>
+            <li class="timeline-item">
+              <a href="https://drive.google.com/file/d/1-kNjc7WPRPEi-FfRH_lKH6RpamolRRwZ/view?usp=sharing">
+                <span>Therap BD Java Fest 2023 - Finalist</span>
+              </a>
+              <p class="timeline-text"> Therap (BD) LtdI</p>
+            </li>
+            <li class="timeline-item">
+              <a href="https://drive.google.com/file/d/1bTCm1v4pUfPGzFeD90SDiOZU9ip0UNe1/view?usp=sharing">
+                <span>Intra University It Fair 2023 -1st Place in Project Exhibition</span>
+              </a>
+              <p class="timeline-text">Pabna University Science and Technology</p>
+            </li>
+            <li class="timeline-item">
+              <a href="https://drive.google.com/file/d/1TZ8ZfC9_bFPtRai1BdTbBiGEIT1CZ1di/view?usp=sharing">
+                <span>CSE Fest Programming Contest 2019 -Runner’s-Up</span>
+              </a>
+              <p class="timeline-text">Pabna University Science and Technology</p>
+            </li>
+            
+
+
+          </ol>
+
+        </section>
+
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Python development</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Machine learning - (Tensorflow, Pytorch)</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Django (RestApi)</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">FastAPI</h5>
+                <data value="60">60%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">ReactJS</h5>
+                <data value="60">60%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Database - (MongoDB, PostgreSQL)</h5>
+                <data value="60">60%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">DevOps/MLOps</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Machine learning</button>
+            </li>
+
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Machine learning</button>
+              </li>
+
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+
+            <li class="project-item  active" data-filter-item data-category="machine learning">
+              <a href="https://github.com/HSAkash/AI-Farming">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="shoe-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/ai_farming.jpg" alt="AI-Farming" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">AI-Farming</h3>
+
+                <p class="project-category">Crop disease detection through leaf analysis</p>
+
+              </a>
+            </li>
+
+
+            <li class="project-item  active" data-filter-item data-category="machine learning">
+              <a href="https://github.com/HSAkash/Smart-ClassRoom">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="shoe-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/smartClassRoom.png" alt="Smart-ClassRoom" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Smart-ClassRoom</h3>
+
+                <p class="project-category">Real-time student monitoring system</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="machine learning">
+              <a href="https://github.com/HSAkash/parkinson-disease-detection">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="shoe-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/parkinsons-disease.jpg" alt="Smart-ClassRoom" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Parkinson disease detection</h3>
+
+                <p class="project-category">Leveraging technology for impactful healthcare solutions.</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="machine learning">
+              <a href="https://github.com/HSAkash/Potato-Leaf-Disease-Dataset">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="shoe-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/potatos.jpeg" alt="Smart-ClassRoom" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Potato Leaf Disease Dataset</h3>
+
+                <p class="project-category">
+                  Generalized Technique for Potato Leaves Disease Classification using CNN
+                </p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="machine learning">
+              <a href="https://github.com/HSAkash/Maxican-Sign-Language-Detection">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="shoe-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/sign_language.png" alt="Maxican-Sign-Language-Detection" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Maxican Sign Language Detection</h3>
+
+                <p class="project-category">
+                  Generalized Technique for Maxican Sign Language Detection using CNN/ Transfer Learning
+                </p>
+
+              </a>
+            </li>
+
+
+            <li class="project-item  active" data-filter-item data-category="machine learning">
+              <a href="https://github.com/HSAkash/Tomato-leaf-disease">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="shoe-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/tomato.jpeg" alt="Smart-ClassRoom" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Tomato Leaf Disease Dataset</h3>
+
+                <p class="project-category">
+                  Generalized Technique for Tomato Leaves Disease Classification using CNN
+                </p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="machine learning">
+              <a href="https://github.com/HSAkash/Cauliflower-disease">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="shoe-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/cauliflower.jpeg" alt="Smart-ClassRoom" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Cauliflower disease</h3>
+
+                <p class="project-category">
+                  Generalized Technique for Cauliflower Leaves Disease Classification using Transfer Learning
+                </p>
+
+              </a>
+            </li>
+
+
+            
+
+
+
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://github.com/HSAkash/AI-Farming">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="shoe-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/ai_farming.jpg" alt="AI-Farming" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">AI-Farming</h3>
+
+                <p class="project-category">Crop disease detection through leaf analysis</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://github.com/HSAkash/Shoematic">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="shoe-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/shoe.jpeg" alt="Shoematic" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Shoematic</h3>
+
+                <p class="project-category">Ecommerce website</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://github.com/HSAkash/Questionnaire">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/questionnaire.png" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Questionnaire</h3>
+
+                <p class="project-category">knowledge sharing and problem-solving.</p>
+
+              </a>
+            </li>
+
+            
+
+
+
+            
+
+           
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <!-- <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design conferences in 2022</h3>
+
+                  <p class="blog-text">
+                    Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Best fonts every designer</h3>
+
+                  <p class="blog-text">
+                    Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #80</h3>
+
+                  <p class="blog-text">
+                    Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">UI interactions of the week</h3>
+
+                  <p class="blog-text">
+                    Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
+
+                  <p class="blog-text">
+                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #79</h3>
+
+                  <p class="blog-text">
+                    Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article> -->
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+
+
+        <div class="sidebar-info_more">
+
+          <div class="separator"></div>
+  
+          <ul >
+  
+            <li class="contact-item">
+  
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+  
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+  
+                <a href="mailto:hemelakash472@gmail.com" class="contact-link">hemelakash472@gmail.com</a>
+              </div>
+  
+            </li>
+  
+            <li class="contact-item">
+  
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
+  
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
+  
+                <a href="tel:+8801792805468" class="contact-link">+8801792805468</a>
+              </div>
+  
+            </li>
+  
+            
+  
+            <li class="contact-item">
+  
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+  
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+  
+                <address>Tangail, Dhaka, Bangladesh</address>
+              </div>
+  
+            </li>
+  
+          </ul>
+  
+          <div class="separator"></div>
+  
+          <ul class="social-list">
+  
+            <li class="social-item">
+              <a  class="social-link"
+                href="https://www.linkedin.com/in/hemel-akash" target="blank"><img src="assets/images/linkedin.png" alt="https://www.kaggle.com/hsakash"  height="20" width="20" />
+              </a>
+            </li>
+  
+            <li class="social-item">
+              <a href="https://github.com/HSAkash" class="social-link">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
+            
+            <li class="social-item">
+              <a  class="social-link"
+                href="https://www.t.me/HemelAkash" target="blank"><img src="assets/images/telegram.png" alt="https://www.kaggle.com/hsakash"  height="20" width="20" />
+              </a>
+            </li>
+  
+            <li class="social-item">
+              <!-- <a href="https://twitter.com/HSAkash2" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a> -->
+              <a  class="social-link"
+                href="https://twitter.com/HSAkash2" target="blank"><img src="assets/images/twitter.png" alt="https://www.kaggle.com/hsakash"  height="20" width="20" />
+              </a>
+            </li>
+  
+            <li class="social-item">
+              <a 
+                href="https://www.kaggle.com/hsakash" target="blank"><img src="assets/images/kaggle.png" alt="https://www.kaggle.com/hsakash"  height="20" width="20" />
+              </a>
+            </li>
+  
+            <li class="social-item">
+              <a 
+                href="https://scholar.google.com/citations?user=vx-jQ0YAAAAJ" target="blank"><img src="assets/images/scholar.png" alt="https://www.kaggle.com/hsakash"  height="20" width="20" />
+              </a>
+            </li>
+  
+          </ul>
+  
+        </div>
+
+
+
+
+        <!-- <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section> -->
+
+        <!-- <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section> -->
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
